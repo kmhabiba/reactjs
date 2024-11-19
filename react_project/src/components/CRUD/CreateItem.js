@@ -55,6 +55,8 @@ function CreateItem() {
 
   return (
     <div>
+      <h1 className = "navbar-align"> CRUD Operation</h1>
+      <p className = "content-below-heading">This is the content of crud</p>
       <h2>Create New Item</h2>
       <input
         type="text"

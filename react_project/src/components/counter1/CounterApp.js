@@ -18,9 +18,10 @@ function CounterApp() {
     setCount(0);
   };
 
-  return (
+  return ( 
     <div className="CounterApp">
-      <h1>Counter App</h1>
+      <h1 className = "navbar-align"> Counter App</h1>
+      <p className = "content-below-heading">This is the content of counter app</p>
       <Counter 
         count={count} 
         increment={increment} 

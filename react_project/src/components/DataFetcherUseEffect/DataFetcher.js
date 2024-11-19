@@ -37,6 +37,8 @@ function DataFetcher() {
 
   return (
     <div>
+      <h1 className = "navbar-align"> Fetching data</h1>
+      <p className = "content-below-heading">This is the content of data</p>
       <h2>Fetched Data from API</h2>
       <ul>
         {data.slice(0, 10).map((item) => (

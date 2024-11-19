@@ -1,9 +1,36 @@
-.light {
-    background-color: white;
-    color: black;
-}
- 
-.dark {
-    background-color: black;
-    color: white;
-}
+nav ul li a {  /* Light Mode Styles */
+    color: white; 
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+   
+  nav ul li a.active-link {
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: underline;
+  }
+   
+  body.dark-mode nav ul li a { /* Dark Mode Styles */
+    color: #f1f1f1; 
+  }
+   
+  body.dark-mode nav ul li a.active-link {
+    color: #ffcc00;
+  }
+   
+  body.dark-mode nav ul li a:hover {
+    background-color: #555555;
+  }
+   
+  /* Dark mode background */
+  body.dark-mode {
+    background-color: #121212;
+    color: #ffffff; 
+  }
+   
+  nav.dark-mode {
+    background-color: #1c1c1c; 
+  }
+  

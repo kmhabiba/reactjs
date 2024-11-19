@@ -10,7 +10,8 @@ function ParentComponent() {
 
   return (
     <div>
-      <h1>Parent Component</h1>
+      <h1 className="navbar-align">Fetching data from Child</h1>
+      <p className='content-below-heading'>data is comming from the child</p>
       <p>Data from Child: {childData}</p>
       <ChildComponent sendDataToParent={handleDataFromChild} />
     </div>
