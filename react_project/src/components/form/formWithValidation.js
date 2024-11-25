@@ -38,8 +38,8 @@ function FormWithValidation() {
 
   return (
     <div>
-      <h1 className="navbar-align">Counter App</h1>
-      <p className="content-below-heading">This is the content of the counter app</p>
+      <h1 className="navbar-align">Simple Form</h1>
+      <p className="content-below-heading">This is the content of the form</p>
       <div className="login-container">
         <div className="login-card">
           <h2 className="login-title">Simple Form</h2>

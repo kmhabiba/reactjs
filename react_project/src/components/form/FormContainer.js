@@ -1,6 +1,6 @@
 //Parent component
 import React, { useState } from 'react';
-import FormSubmit from './FormSubmit'; // Import the child component
+import FormSubmit from './FormSubmit';
 
 function FormContainer() {
   const [submittedData, setSubmittedData] = useState(null);
