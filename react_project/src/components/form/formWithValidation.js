@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './form.css';
+import './form.scss';
 
 function FormWithValidation() {
   const [formData, setFormData] = useState({ name: '', email: '' });

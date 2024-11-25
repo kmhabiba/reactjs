@@ -1,4 +1,3 @@
-//Parent component
 import React, { useState } from 'react';
 import FormSubmit from './FormSubmit';
 

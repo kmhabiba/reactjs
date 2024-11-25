@@ -10,6 +10,7 @@ import FormWithValidation from './components/form/formWithValidation';
 import DataFetcher from './components/DataFetcherUseEffect/DataFetcher';
 import CreateItem from "./components/CRUD/CreateItem";
 import ParentComponent from './components/DataFetcherChildtoP/ParentComponent';
+import Mui from './components/materialUI/mui';
 
 const App = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -36,6 +37,7 @@ const App = () => {
               <li><NavLink to="/data" className={({ isActive }) => (isActive ? 'active-link' : '')}>Data Fetcher</NavLink></li>
               <li><NavLink to="/counterApp" className={({ isActive }) => (isActive ? 'active-link' : '')}>Counter App</NavLink></li>
               <li><NavLink to="/parent" className={({ isActive }) => (isActive ? 'active-link' : '')}>Parent-Child</NavLink></li>
+              <li><NavLink to="/materialUI" className={({ isActive }) => (isActive ? 'active-link' : '')}>MaterialUI</NavLink></li>
             </ul>
           </nav>
           <Routes>
@@ -47,6 +49,7 @@ const App = () => {
             <Route path="/form" element={<FormWithValidation />} />
             <Route path="/data" element={<DataFetcher />} />
             <Route path="/parent" element={<ParentComponent />} />
+            <Route path="/materialUI" element={<Mui />} />
           </Routes>
         </div>
       </Router>
