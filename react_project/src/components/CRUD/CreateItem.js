@@ -72,7 +72,7 @@ function CreateItem() {
           {items.map((item, index) => (
             <li key={index}>
               {item}{' '}
-              <button onClick={() => handleEditItem(item, index)}>Edit</button>
+              <button className="btn-edit" onClick={() => handleEditItem(item, index)}>Edit</button>
               <DeleteItem item={item} onDelete={handleDeleteItem} />
             </li>
           ))}

@@ -20,8 +20,8 @@ function UpdateItem({ currentItem, onSave, onCancel }) {
         onChange={(e) => setUpdatedItem(e.target.value)}
         placeholder="Update the item"
       />
-      <button onClick={handleSave}>Save Item</button>
-      <button onClick={onCancel}>Cancel</button>
+      <button className="btn-save" onClick={handleSave}>Save Item</button>
+      <button className="btn-cancel" onClick={onCancel}>Cancel</button>
     </div>
   );
 }

@@ -1,6 +1,7 @@
-//Parent
 import React, { useState } from 'react';
 import Counter from './Counter'; 
+import '../../App.scss';
+
 function CounterApp() {
   const [count, setCount] = useState(0);
 

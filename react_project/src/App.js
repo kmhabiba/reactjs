@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes, NavLink } from 'react-router-do
 import { ThemeProvider } from './components/context/ThemeContext';
 import ThemeToggle from './components/context/ThemeToggle';
 import Counter from './components/reduxCounter';
-import './App.css';
+import './App.scss';
 import Home from './components/Home';
 import CounterApp from './components/counter1/CounterApp';
 import FormWithValidation from './components/form/formWithValidation';
