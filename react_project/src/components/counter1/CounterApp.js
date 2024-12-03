@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Counter from './Counter'; 
-import '../../App.scss';
+import styles from '../../App.scss';
 
 function CounterApp() {
   const [count, setCount] = useState(0);
@@ -20,9 +20,9 @@ function CounterApp() {
   };
 
   return ( 
-    <div className="CounterApp">
-      <h1 className = "navbar-align"> Counter App</h1>
-      <p className = "content-below-heading">This is the content of counter app</p>
+    <div className={styles.CounterApp}>
+      <h1 className = {styles.navbarAlign}> Counter App</h1>
+      <p className = {styles.contentBelowHeading}>This is the content of counter app</p>
       <Counter 
         count={count} 
         increment={increment} 
